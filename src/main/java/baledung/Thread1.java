@@ -7,6 +7,7 @@ public class Thread1 {
         int number = 12;
         Thread newThread = new Thread(() -> {
             System.out.println("Factorial of " + number + " is: " + factorial(number));
+            System.out.println("Demo");
         });
         newThread.start();
     }
