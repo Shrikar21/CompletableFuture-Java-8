@@ -3,6 +3,7 @@ package baledung;
 public class Thread1 {
     public static void main(String[] args) {
 
+        //Hi
         int number = 12;
         Thread newThread = new Thread(() -> {
             System.out.println("Factorial of " + number + " is: " + factorial(number));
